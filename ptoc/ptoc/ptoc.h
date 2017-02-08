@@ -1,5 +1,4 @@
-#ifndef __PTOC_H__
-#define __PTOC_H__
+#pragma once
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -42,6 +41,5 @@ typedef unsigned char boolean;
 #include "paslib.h"
 #include "set.h"
 
-#endif
 
 

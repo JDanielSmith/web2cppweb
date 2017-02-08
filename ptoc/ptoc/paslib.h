@@ -1,5 +1,4 @@
-#ifndef __PASLIB_H__
-#define __PASLIB_H__
+#pragma once
 
 #define maxint ((int)(1 << (sizeof(integer)*8-1)) - 1)
 
@@ -154,6 +153,5 @@ inline double   Random() { return randreal(); }
 
 #endif
 
-#endif
 
 

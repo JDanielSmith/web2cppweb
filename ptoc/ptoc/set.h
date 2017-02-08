@@ -1,5 +1,4 @@
-#ifndef __SET_H__
-#define __SET_H__
+#pragma once
 
 #define MAX_SET_CARD  256
 
@@ -144,4 +143,3 @@ typedef unsigned short set16;
 #define RANGE_32(a,b) RANGE_16(a,a+15): case RANGE_16(a+16,b)
 
 
-#endif 

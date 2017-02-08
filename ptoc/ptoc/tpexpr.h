@@ -1,7 +1,6 @@
 // Type expressions.
 
-#ifndef __TPEXPR_H__
-#define __TPEXPR_H__
+#pragma once
 
 #include "bring.h"
 
@@ -302,4 +301,4 @@ extern text_tp   text_type;
 extern ref_tp    pointer_type;
 extern varying_string_tp varying_string_type;
 
-#endif
+

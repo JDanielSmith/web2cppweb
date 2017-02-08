@@ -1,5 +1,4 @@
-#ifndef __MAIN_H__
-#define __MAIN_H__
+#pragma once
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -49,11 +48,7 @@ extern char path_sep;
 #define CONFIG_FILE         "ptoc.cfg"
 #endif
 
-#ifdef _WIN32
 #define PATH_SEP '\\'
-#else
-#define PATH_SEP '/'
-#endif
 
 extern bool  use_call_graph;
 extern bool  pio_init;
@@ -92,5 +87,5 @@ class heap_object {
     void* operator new(size_t size) { return heap.alloc(size); }
 }; 
 
-#endif
+
 

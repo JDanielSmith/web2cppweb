@@ -1,6 +1,4 @@
-#ifndef __ARRAY_H__
-#define __ARRAY_H__
-
+#pragma once
 
 #ifdef __cplusplus
 
@@ -885,5 +883,3 @@ extern char* lpsz(int low, int high, const char* ptr);
 
 #endif
 
-
-#endif 

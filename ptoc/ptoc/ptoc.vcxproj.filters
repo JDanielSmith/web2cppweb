@@ -116,5 +116,6 @@
     <None Include="test.pas" />
     <None Include="ptoc.pas" />
     <None Include="ptoc.cfg" />
+    <None Include="token.dpp" />
   </ItemGroup>
 </Project>

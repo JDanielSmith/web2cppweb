@@ -1,5 +1,4 @@
-#ifndef __TOKEN_H__
-#define __TOKEN_H__
+#pragma once
 
 #include "main.h"
 #include "nmtbl.h"
@@ -167,6 +166,6 @@ class output_context {
     ~output_context(); 
 }; 
 
-#endif
+
 
 

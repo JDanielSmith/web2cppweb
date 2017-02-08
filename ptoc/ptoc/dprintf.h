@@ -1,1 +1,3 @@
-char *dprintf (const char *fmp, ...);
+#pragma once
+
+extern char *dprintf (const char *fmp, ...);

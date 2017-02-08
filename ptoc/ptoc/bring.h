@@ -1,8 +1,7 @@
 
 // -*- C++ -*-
 // Binding rings (lists actually)
-#ifndef __BRING_H__
-#define __BRING_H__
+#pragma once
 
 #include "main.h"
 
@@ -43,7 +42,8 @@ class symbol : public heap_object {
     int         value;  
     tpexpr	*type;
 
-    void translate(token* t);
+    void translate(token& t);
+	void translate(token* t);
 };
 
 // Binding contour
@@ -150,4 +150,3 @@ class rename_item {
     }
 };
 
-#endif

@@ -1,13 +1,9 @@
-#ifndef __IO_H__
-#define __IO_H__
+#pragma once
 
 
 typedef struct file_descriptor { 
     FILE *f;
     char *name;
-#ifdef __VMS
-    void *fab;
-#endif
     int   error;
     short mode; 
     short state;
@@ -819,11 +815,6 @@ extern text input, output;
 #define noioerror(file_variable) \
         pio_file_ignore_error(&(file_variable).desc)
 
-#ifdef __VMS
-#define get_file_version(file_variable) \
-       pio_get_file_version(&(file_variable).desc)
-#endif
-
 
 #define file_is_opened(file_variable)  ((file_variable).desc.f != NULL)
 
@@ -862,6 +853,5 @@ enum open_file_errors {
 };
 
 
-#endif
 
 

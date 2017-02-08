@@ -296,6 +296,7 @@ copy "$(ProjectDir)ptoc.cfg" "$(OutDir)"</Command>
     <None Include="ptoc.cfg" />
     <None Include="ptoc.pas" />
     <None Include="test.pas" />
+    <None Include="token.dpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
